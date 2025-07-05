@@ -1,0 +1,40 @@
+{
+  "configurations" : [
+    {
+      "id" : "48819C50-6C7A-4FE9-8A3E-46FE0E6DC6F2",
+      "name" : "Test Scheme Action",
+      "options" : {
+        "environmentVariableEntries" : [
+
+        ]
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:PokeApp.xcodeproj",
+          "identifier" : "B8B9A3D72B83CAD70063BC43",
+          "name" : "PokeApp"
+        }
+      ]
+    },
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PokeApp.xcodeproj",
+      "identifier" : "B8B9A3D72B83CAD70063BC43",
+      "name" : "PokeApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PokeApp.xcodeproj",
+        "identifier" : "B8B9A3E92B83CAD90063BC43",
+        "name" : "PokeAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
